@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Data Driven Basics</th></tr>
+<tr><td><a href="#t0">Login-Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">4,513</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">AddCustomer-Test</a></td><td class="num">4</td><td class="num attn">1</td><td class="num">0</td><td class="num">11,188</td><td></td><td></td></tr>
+<tr><td><a href="#t2">OpenAcc-Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">2,156</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num attn">1</th><th class="num">0</th><th class="num">17,857</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Data Driven Basics</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login-Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.testcases.BankManagerLoginTest</td><td><a href="#m0">loginAsBankManager</a></td><td rowspan="1">1580307635149</td><td rowspan="1">4468</td></tr><tr class="passedeven"><td><a href="#m1">testLogin</a></td><td rowspan="1">1580307639619</td><td rowspan="1">1</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">AddCustomer-Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.testcases.AddCustomerTest</td><td><a href="#m2">addCustomer</a></td><td rowspan="1">1580307650554</td><td rowspan="1">1</td></tr><tr><th colspan="4">AddCustomer-Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.testcases.AddCustomerTest</td><td><a href="#m3">addCustomer</a></td><td rowspan="4">1580307648158</td><td rowspan="4">2395</td></tr><tr class="passedeven"><td><a href="#m4">addCustomer</a></td></tr><tr class="passedeven"><td><a href="#m5">addCustomer</a></td></tr><tr class="passedeven"><td><a href="#m6">addCustomer</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">OpenAcc-Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.testcases.OpenCustomerAccTest</td><td><a href="#m7">openCustomer</a></td><td rowspan="1">1580307650987</td><td rowspan="1">2151</td></tr></tbody>
+</table>
+<h2>Login-Test</h2><h3 id="m0">com.testcases.BankManagerLoginTest#loginAsBankManager</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Bank Manager login successfully executed<br/>pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.testcases.BankManagerLoginTest#testLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>AddCustomer-Test</h2><h3 id="m2">com.testcases.AddCustomerTest#addCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Tanvi</td><td>Kesri</td><td>T1234</td><td>Customer added successfully</td><td>n</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.testng.SkipException: skipping the test case as run mode
+	at com.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.testcases.AddCustomerTest#addCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Anu</td><td>Mishra</td><td>A3456</td><td>Customer added successfully</td><td>y</td></tr><tr><th colspan="5">Messages</th></tr><tr><td colspan="5"><div class="messages">pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.testcases.AddCustomerTest#addCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Rahul</td><td>Narayan</td><td>R2020</td><td>Customer added successfully</td><td>y</td></tr><tr><th colspan="5">Messages</th></tr><tr><td colspan="5"><div class="messages">pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.testcases.AddCustomerTest#addCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Ravi</td><td>Narayan</td><td>R2619</td><td>Customer added successfully</td><td>y</td></tr><tr><th colspan="5">Messages</th></tr><tr><td colspan="5"><div class="messages">pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.testcases.AddCustomerTest#addCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Swati</td><td>Verma</td><td>S2619</td><td>Customer added successfully</td><td>y</td></tr><tr><th colspan="5">Messages</th></tr><tr><td colspan="5"><div class="messages">pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OpenAcc-Test</h2><h3 id="m7">com.testcases.OpenCustomerAccTest#openCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Ravi</td><td>Ruppee</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">pass</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

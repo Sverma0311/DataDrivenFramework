@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="4547" started-at="2020-01-25T13:13:51Z" finished-at="2020-01-25T13:13:56Z">
+    <groups>
+    </groups>
+    <test name="Login-Test" duration-ms="3655" started-at="2020-01-25T13:13:51Z" finished-at="2020-01-25T13:13:55Z">
+      <class name="com.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.testcases.BankManagerLoginTest@eec5a4a]" name="loginAsBankManager" duration-ms="3618" started-at="2020-01-25T13:13:51Z" finished-at="2020-01-25T13:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.testcases.BankManagerLoginTest -->
+    </test> <!-- Login-Test -->
+    <test name="AddCustomer-Test" duration-ms="869" started-at="2020-01-25T13:13:55Z" finished-at="2020-01-25T13:13:56Z">
+      <class name="com.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.AddCustomerTest@3cef309d]" name="setUp" is-config="true" duration-ms="9247" started-at="2020-01-25T13:13:42Z" finished-at="2020-01-25T13:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcases.AddCustomerTest@3cef309d]" name="addCustomer" duration-ms="859" started-at="2020-01-25T13:13:55Z" data-provider="getData" finished-at="2020-01-25T13:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Narayan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R2619]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.AddCustomerTest@3cef309d]" name="tearDown" is-config="true" duration-ms="752" started-at="2020-01-25T13:13:56Z" finished-at="2020-01-25T13:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.AddCustomerTest -->
+    </test> <!-- AddCustomer-Test -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>

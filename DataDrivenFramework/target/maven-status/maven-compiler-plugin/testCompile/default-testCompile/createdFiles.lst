@@ -1,0 +1,7 @@
+com\testcases\AddCustomerTest.class
+com\utilities\TestUtil.class
+com\testcases\BankManagerLoginTest.class
+com\listener\CustomListener.class
+com\rough\TestProperties.class
+com\base\TestBase.class
+com\testcases\OpenCustomerAccTest.class
